@@ -4,7 +4,7 @@ Welcome to MyWacc's programming challenge! This README contains important instru
 
 ## Introduction
 
-The objective of this test is to extract Bitcoin data from a public API, create a 'Bitcoin_currency' table in the Django application, store the fetched data in it, and display this data in a meaningful way on the application's port 8000.
+The objective of this test is to extract Bitcoin data from a public API, create a 'BitcoinCurrency' table in the Django application, store the fetched data in it, and display this data in a meaningful way on the application's port 8000.
 
 ## Getting Started
 
@@ -35,7 +35,7 @@ data = response.json()
 prices = data["prices"]
 ```
 
-3. Create a 'Bitcoin_currency' table and populate it with the fetched data.
+3. Create a 'BitcoinCurrency' table and populate it with the fetched data.
 4. Display the data in a meaningful way on the application's port 8000.
 
 ## Submission
